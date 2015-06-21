@@ -103,5 +103,5 @@ for (i in seq(1,total_subjects,1)){
 
 filepath = "tidy_data.txt"
 
-write.table(tidy_data, filepath, row.names = FALSE)
+write.table(tidy_data, filepath, row.names = FALSE, eol = "\r\n")
 
